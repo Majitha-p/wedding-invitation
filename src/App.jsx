@@ -142,39 +142,23 @@ growing into a bond built on trust, love, and prayer.
   </a>
 </section>
 
+       {/* RSVP */}
       <section className="rsvp">
-  <h2>Please confirm your attendance below.</h2>
+        <h2>Please confirm your attendance</h2>
 
-  <form onSubmit={handleSubmit}>
-    <input
-      type="text"
-      placeholder="Your Name"
-      required
-    />
+        <form onSubmit={handleSubmit}>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email Address" required />
 
-    <input
-      type="email"
-      placeholder="Email Address"
-      required
-    />
+          <select required>
+            <option value="">Select Attendance</option>
+            <option>Yes, I will attend</option>
+            <option>No, I can’t attend</option>
+          </select>
 
-    <select required>
-      <option value="">
-        Select Attendance
-      </option>
-      <option>
-        Yes, I Will Attend
-      </option>
-      <option>
-        Sorry, I Can't Attend
-      </option>
-    </select>
-
-    <button type="submit">
-      Confirm
-    </button>
-  </form>
-</section>
+          <button type="submit">Confirm RSVP</button>
+        </form>
+      </section>
 
       <footer>
         <p className="subtitle" >
