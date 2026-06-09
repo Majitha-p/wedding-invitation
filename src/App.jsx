@@ -4,7 +4,8 @@ import { Heart,
   Calendar,
   MapPin,
   Gift,
-  Mail, Clock } from "lucide-react";
+  Mail, Clock, 
+  MapPinIcon} from "lucide-react";
 
 function App() {
   const weddingDate = new Date("June 11, 2026 11:00:00").getTime();
@@ -18,7 +19,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Thank you! Your RSVP has been received ❤️");
+    alert("Thank you for your responds ❤️");
   };
 
   useEffect(() => {
@@ -121,9 +122,9 @@ growing into a bond built on trust, love, and prayer.
         <h2>Nikah Ceremony</h2>
 
         <div className="card">
-          <p><Calendar size={20} /> Thursday, 11 June 2026</p>
-          <p><Clock size={20}/> 11:00 AM</p>
-          <p><MapPin size={35}/> VKH Convention Centre, Theyyala</p>
+          <p><Calendar size={18}  /> Thursday, 11 June 2026</p>
+          <p><Clock size={18}/> 11:00 AM</p>
+          <p><MapPinIcon size={20}/>VKH Convention Centre, Theyyala</p>
         </div>
       </section>
 

@@ -188,15 +188,130 @@ footer {
 
 /* MOBILE */
 @media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2rem;
+
+  /* Sections */
+  section {
+    padding: 80px 24px;
   }
 
-  section {
-    padding: 70px 20px;
+  /* Hero */
+  .hero {
+    min-height: 100vh;
+    background-position: center center;
+  }
+
+  .overlay {
+    padding: 24px;
+  }
+
+  .welcome {
+    font-size: 1rem;
+    line-height: 1.8;
+    max-width: 320px;
+    margin-bottom: 16px;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 12px 0;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    max-width: 300px;
+    margin: 12px auto;
+  }
+
+  .hero-date {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  /* Buttons */
+  button {
+    width: 100%;
+    max-width: 280px;
+    padding: 16px;
+    font-size: 0.95rem;
+    margin-top: 24px;
+  }
+
+  /* Headings */
+  h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  /* Story */
+  .story p {
+    font-size: 1rem;
+    line-height: 2;
+    max-width: 100%;
+  }
+
+  /* Countdown */
+  .timer {
+    gap: 12px;
+    justify-content: center;
   }
 
   .box {
-    width: 80px;
+    width: 75px;
+    padding: 14px 10px;
+    border-radius: 16px;
+  }
+
+  .box h3 {
+    font-size: 1.5rem;
+  }
+
+  .box span {
+    font-size: 0.75rem;
+  }
+
+  /* Details Card */
+  .card {
+    padding: 28px 20px;
+    border-radius: 20px;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    gap: 5px;
+  }
+
+  /* Venue */
+  .venue p {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  /* RSVP */
+  .rsvp h2 {
+    max-width: 320px;
+    margin: 0 auto 25px;
+  }
+
+  .rsvp form {
+    padding: 24px;
+    border-radius: 20px;
+  }
+
+  input,
+  select {
+    font-size: 16px; /* prevents zoom on iPhone */
+    padding: 16px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 30px 24px;
+    font-size: 0.9rem;
+    line-height: 1.8;
   }
 }
