@@ -156,7 +156,7 @@ growing into a bond built on trust, love, and prayer.
             <option>No, I can’t attend</option>
           </select>
 
-          <button type="submit">Confirm RSVP</button>
+          <button type="submit">Confirm</button>
         </form>
       </section>
 
